@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    padding: 0;
+    margin: 0;
+    background: #EEF5F9;
+}
+.ticket-overlay{
+    padding: 11.5px 9.9px;
+}
+.ticket{
+    background: #fff;
+    border: 1.5px solid #E7E7E7;
+    width: 537px;
+    height: 870px;
+    border-radius: 23px;
+    padding: 20px 17px;
+    font-family: "Open Sans", sans-serif;
+}
+.ticket__name{
+    color: #49AADA;
+    font-size: 21.4px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+.ticket__logo{
+    margin-bottom: 13px;
+}
+.ticket__main{
+    width: 290px;
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+.ticket__aside{
+    float: left;
+    display: block;
+    width: 199px;
+}
+.ticket__title{
+    color: #888;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3.8px;
+}
+.ticket__text{
+    color: #3A4145;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ticket__item{
+    margin-bottom: 15.3px;
+}
+.ticket__company{
+    color: #051822;
+    font-size: 12.2px;
+    font-weight: 400;
+}
+.ticket__info{
+    border-radius: 11.5px;
+    background: #EFF5FF;
+    margin-bottom: 15.3px;
+    padding: 15.3px 11.5px 0px 11.5px;
+}
+.ticket__info-item{
+    padding-bottom: 15.3px;
+}
+.ticket__info-icon{
+    width: 32.2px;
+    height: 23px;
+    float: left;
+    display: block;
+}
+.ticket__info-icon svg{
+    width: 23px;
+}
+.ticket__info-text{
+    width: 143.2px;
+    float: left;
+    display: block;
+    color: #3A4145;
+    font-size: 13.8px;
+}
+.ticket__number{
+    padding: 8.4px;
+    background: #49AADA;
+    border-radius: 11.5px;
+    font-weight: 700;
+    font-size: 21.4px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15.3px;
+}
+.ticket__img{
+    margin-bottom: 15.3px;
+    width: 199px;
+}
+.ticket__img svg{
+    width: 199px;
+    height: 199px;
+}
+.ticket__photo{
+    margin-bottom: 11.5px;
+    height: 199px;
+    width: 199px;
+    overflow: hidden;
+    border-radius: 11.5px;
+    display: block;
+}
+.ticket__photo img{
+    min-height: 199px;
+    min-width: 199px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 11.5px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+}
+.ticket__link-icon{
+    width: 29.1px;
+    height: 23px;
+    float: left;
+    display: block;
+}
+.ticket__link-icon svg{
+    width: 23px;
+    height: 23px;
+}
+.ticket__link-text{
+    width: 168px;
+    float: left;
+    display: block;
+    line-height: 23px;
+    font-size: 13.8px;
+    color: #3A4145;
+}
+.ticket__clear{
+    width: 100%;
+    clear: both;
+    display: block;
+}
+a{
+    color: inherit;
+}
